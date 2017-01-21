@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('join');
+  this.route('need');
+  this.route('goals');
 });
 
 export default Router;
