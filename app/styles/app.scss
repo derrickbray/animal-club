@@ -5,7 +5,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  color: blue;
+  // color: blue;
 
   &-logo {
 
@@ -18,6 +18,5 @@
 
   &-link {
     margin-left: 0.9rem;
-
   }
 }
