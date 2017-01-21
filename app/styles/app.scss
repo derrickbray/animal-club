@@ -1,0 +1,23 @@
+
+
+@import 'reset';
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+
+  &-logo {
+
+  }
+
+  &-links {
+    display: flex;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  &-link {
+    margin-left: 0.9rem;
+
+  }
+}
