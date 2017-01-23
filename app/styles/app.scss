@@ -6,18 +6,16 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  // margin: 2rem -1rem 2rem -1rem;
   margin: -1rem;
 
   &-item {
     flex-grow: 1;
     margin: 1rem;
     width: calc(100% / 3 - 2rem);
-    // border: 1px solid black;
+    min-width: 15rem;
 
     &__img {
       width: 100%;
-      // height: 40vh;
       background-size: cover center;
     }
 
