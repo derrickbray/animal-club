@@ -1,0 +1,22 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: -1rem;
+
+  &-item {
+    flex-grow: 1;
+    margin: 1rem;
+    width: calc(100% / 2 - 2rem);
+    min-width: 15rem;
+
+    &__img {
+      width: 100%;
+      background-size: cover center;
+    }
+
+    &__title {
+      text-align: center;
+    }
+  }
+}
